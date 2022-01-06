@@ -96,6 +96,11 @@ webview {
 .tool {
   padding: 0 28px;
   user-select: none;
+  display: flex;
+}
+
+.no-drag {
+  width: 22px;
   pointer-events: none;
 }
 
