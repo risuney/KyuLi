@@ -1,0 +1,4 @@
+node_modules/
+KyuLi-win32-x64/
+package-lock.json
+*.log

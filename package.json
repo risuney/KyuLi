@@ -1,0 +1,21 @@
+{
+  "name": "KyuLi",
+  "version": "1.0.0",
+  "description": "A simple but delicious browser like a cucumber",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron ./",
+    "pac-win": "electron-packager ./ KyuLi --platform=win32 --arch=x64 --overwrite --icon=icon.ico"
+  },
+  "author": "risuney",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "3.6.0"
+  },
+  "devDependencies": {
+    "electron": "^16.0.6",
+    "electron-packager": "^15.4.0",
+  },
+  "repository": "https://github.com/risuney/KyuLi.git",
+  "bugs": "https://github.com/risuney/KyuLi/issues"
+}

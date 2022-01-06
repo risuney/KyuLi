@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="tabs">
+    <div class="tab active left-edge">
+      <img src="" class="hidden" id="favicon" onerror="this.src = 'favicon.png'">
+      <div class="loader"></div>
+      <p class="tab-title">Google</p>
+    </div>
+  </div>
+  <div class="search">
+    <div class="tool">
+      <img src="arrow_back.svg" class="icons" id="back">
+      <img src="arrow_forward.svg" class="icons" id="forward">
+      <img src="refresh.svg" class="icons" id="reload">
+      <img src="home.svg" class="icons" id="home">
+    </div>
+    <input type="text" class="search-box">
+    <div class="tool">
+      <img src="build.svg" class="icons" id="dev">
+    </div>
+  </div>
+  <div class="bookmark"></div>
+  <div class="line"></div>
+  <webview src="https://www.google.com/" id="webview" onerror="console.log('error')"></webview>
+  <script src="search.js" charset="utf-8"></script>
+</body>
+</html>
